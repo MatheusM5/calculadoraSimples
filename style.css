@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', 'sans-serif';
+    background-image: linear-gradient(to right, lightskyblue, lightblue);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    width: 345px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#tela {
+    width: 203px;
+    height: 33px;
+}
+
+#c {
+    width: 64px;
+    height: 67px;
+    color: black;
+    background-color: lightsalmon;
+    position: absolute;
+    right: +1px;
+}
+
+input {
+    color: white;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+.num_mainColor {
+    width: 64px;
+    height: 67px;
+    color: black;
+}
+
+.num_ore {
+    background-color: lightsalmon;
+    width: 64px;
+    height: 67px;
+    color: black;
+}
